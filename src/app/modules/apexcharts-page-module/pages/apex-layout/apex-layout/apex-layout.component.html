@@ -1,0 +1,17 @@
+<!-- <div id="wrapper">
+    <app-apex-sidebar></app-apex-sidebar>
+    <div id="content-wrapper" class="d-flex flex-column">
+        <app-apex-header></app-apex-header>
+        <router-outlet></router-outlet>
+        <app-apex-footer></app-apex-footer>
+    </div>
+</div> -->
+
+
+<div class="page-area" [ngClass]="{'full-menu-active':isShowMenu}">
+    <app-apex-header></app-apex-header>
+    <app-apex-sidebar></app-apex-sidebar>
+    <div class="page-working-area">
+        <router-outlet></router-outlet>
+    </div>
+</div>

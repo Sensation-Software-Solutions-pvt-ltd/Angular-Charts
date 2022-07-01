@@ -1,0 +1,39 @@
+<div class="row">
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="basicColumnChartOptions.series" [chart]="basicColumnChartOptions.chart"
+        [dataLabels]="basicColumnChartOptions.dataLabels" [plotOptions]="basicColumnChartOptions.plotOptions"
+        [yaxis]="basicColumnChartOptions.yaxis" [legend]="basicColumnChartOptions.legend"
+        [fill]="basicColumnChartOptions.fill" [stroke]="basicColumnChartOptions.stroke"
+        [tooltip]="basicColumnChartOptions.tooltip" [xaxis]="basicColumnChartOptions.xaxis"
+        [title]="basicColumnChartOptions.title"></apx-chart>
+    </div>
+  </div>
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="dataLabelsColumnChartOptions.series" [chart]="dataLabelsColumnChartOptions.chart"
+        [dataLabels]="dataLabelsColumnChartOptions.dataLabels" [plotOptions]="dataLabelsColumnChartOptions.plotOptions"
+        [yaxis]="dataLabelsColumnChartOptions.yaxis" [xaxis]="dataLabelsColumnChartOptions.xaxis"
+        [fill]="dataLabelsColumnChartOptions.fill" [title]="dataLabelsColumnChartOptions.title"></apx-chart>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="stackedColumnChartOptions.series" [chart]="stackedColumnChartOptions.chart"
+        [dataLabels]="stackedColumnChartOptions.dataLabels" [plotOptions]="stackedColumnChartOptions.plotOptions"
+        [responsive]="stackedColumnChartOptions.responsive" [xaxis]="stackedColumnChartOptions.xaxis"
+        [legend]="stackedColumnChartOptions.legend" [fill]="stackedColumnChartOptions.fill"
+        [title]="stackedColumnChartOptions.title"></apx-chart>
+    </div>
+  </div>
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="negativeValuesColumnChartOptions.series" [chart]="negativeValuesColumnChartOptions.chart"
+        [dataLabels]="negativeValuesColumnChartOptions.dataLabels"
+        [plotOptions]="negativeValuesColumnChartOptions.plotOptions" [yaxis]="negativeValuesColumnChartOptions.yaxis"
+        [xaxis]="negativeValuesColumnChartOptions.xaxis" [title]="negativeValuesColumnChartOptions.title"></apx-chart>
+    </div>
+  </div>
+</div>

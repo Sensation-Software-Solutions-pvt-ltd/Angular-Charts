@@ -1,0 +1,42 @@
+<div class="row">
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="lineColumnMixedChartOptions.series" [chart]="lineColumnMixedChartOptions.chart"
+        [yaxis]="lineColumnMixedChartOptions.yaxis" [xaxis]="lineColumnMixedChartOptions.xaxis"
+        [labels]="lineColumnMixedChartOptions.labels" [stroke]="lineColumnMixedChartOptions.stroke"
+        [title]="lineColumnMixedChartOptions.title" [dataLabels]="lineColumnMixedChartOptions.dataLabels"
+        [fill]="lineColumnMixedChartOptions.fill" [tooltip]="lineColumnMixedChartOptions.tooltip"></apx-chart>
+    </div>
+  </div>
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="lineAreaMixedChartOptions.series" [chart]="lineAreaMixedChartOptions.chart"
+        [yaxis]="lineAreaMixedChartOptions.yaxis" [xaxis]="lineAreaMixedChartOptions.xaxis"
+        [labels]="lineAreaMixedChartOptions.labels" [stroke]="lineAreaMixedChartOptions.stroke"
+        [markers]="lineAreaMixedChartOptions.markers" [fill]="lineAreaMixedChartOptions.fill"
+        [tooltip]="lineAreaMixedChartOptions.tooltip"></apx-chart>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="lineColumnAreaChartOptions.series" [chart]="lineColumnAreaChartOptions.chart"
+        [yaxis]="lineColumnAreaChartOptions.yaxis" [xaxis]="lineColumnAreaChartOptions.xaxis"
+        [labels]="lineColumnAreaChartOptions.labels" [stroke]="lineColumnAreaChartOptions.stroke"
+        [plotOptions]="lineColumnAreaChartOptions.plotOptions" [markers]="lineColumnAreaChartOptions.markers"
+        [fill]="lineColumnAreaChartOptions.fill" [tooltip]="lineColumnAreaChartOptions.tooltip"
+        [title]="lineColumnAreaChartOptions.title"></apx-chart>
+    </div>
+  </div>
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="multipleY_AxisMixedChartOptions.series" [chart]="multipleY_AxisMixedChartOptions.chart"
+        [xaxis]="multipleY_AxisMixedChartOptions.xaxis" [markers]="multipleY_AxisMixedChartOptions.markers"
+        [stroke]="multipleY_AxisMixedChartOptions.stroke" [yaxis]="multipleY_AxisMixedChartOptions.yaxis"
+        [dataLabels]="multipleY_AxisMixedChartOptions.dataLabels" [title]="multipleY_AxisMixedChartOptions.title"
+        [fill]="multipleY_AxisMixedChartOptions.fill" [tooltip]="multipleY_AxisMixedChartOptions.tooltip"
+        [legend]="multipleY_AxisMixedChartOptions.legend"></apx-chart>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+<!-- <div id="wrapper">
+    <app-high-chart-sidebar></app-high-chart-sidebar>
+    <div id="content-wrapper" class="d-flex flex-column">
+        <app-high-chart-header></app-high-chart-header>
+        <router-outlet></router-outlet>
+        <app-high-chart-footer></app-high-chart-footer>
+    </div>
+</div> -->
+
+
+
+<div class="page-area" [ngClass]="{'full-menu-active':isShowMenu}">
+    <app-high-chart-header></app-high-chart-header>
+    <app-high-chart-sidebar></app-high-chart-sidebar>
+    <div class="page-working-area">
+        <router-outlet></router-outlet>
+    </div>
+</div>

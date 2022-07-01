@@ -1,0 +1,37 @@
+<div class="row">
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="basicBarChartOptions.series" [chart]="basicBarChartOptions.chart"
+        [dataLabels]="basicBarChartOptions.dataLabels" [plotOptions]="basicBarChartOptions.plotOptions"
+        [xaxis]="basicBarChartOptions.xaxis" [title]="basicBarChartOptions.title"></apx-chart>
+    </div>
+  </div>
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="groupedBarChartOptions.series" [chart]="groupedBarChartOptions.chart"
+        [dataLabels]="groupedBarChartOptions.dataLabels" [plotOptions]="groupedBarChartOptions.plotOptions"
+        [xaxis]="groupedBarChartOptions.xaxis" [stroke]="groupedBarChartOptions.stroke"
+        [title]="groupedBarChartOptions.title"></apx-chart>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="patternedBarChartOptions.series" [chart]="patternedBarChartOptions.chart"
+        [dataLabels]="patternedBarChartOptions.dataLabels" [plotOptions]="patternedBarChartOptions.plotOptions"
+        [yaxis]="patternedBarChartOptions.yaxis" [legend]="patternedBarChartOptions.legend"
+        [xaxis]="patternedBarChartOptions.xaxis" [stroke]="patternedBarChartOptions.stroke"
+        [tooltip]="patternedBarChartOptions.tooltip" [fill]="patternedBarChartOptions.fill"
+        [states]="patternedBarChartOptions.states" [title]="patternedBarChartOptions.title"></apx-chart>
+    </div>
+  </div>
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="reversedBaChartOptions.series" [chart]="reversedBaChartOptions.chart"
+        [dataLabels]="reversedBaChartOptions.dataLabels" [plotOptions]="reversedBaChartOptions.plotOptions"
+        [xaxis]="reversedBaChartOptions.xaxis" [yaxis]="reversedBaChartOptions.yaxis"
+        [annotations]="reversedBaChartOptions.annotations" [title]="reversedBaChartOptions.title"></apx-chart>
+    </div>
+  </div>
+</div>

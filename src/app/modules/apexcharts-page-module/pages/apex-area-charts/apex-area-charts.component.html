@@ -1,0 +1,40 @@
+<div class="row">
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="basicAreaChartOptions.series" [chart]="basicAreaChartOptions.chart"
+        [xaxis]="basicAreaChartOptions.xaxis" [stroke]="basicAreaChartOptions.stroke"
+        [dataLabels]="basicAreaChartOptions.dataLabels" [yaxis]="basicAreaChartOptions.yaxis"
+        [labels]="basicAreaChartOptions.labels" [legend]="basicAreaChartOptions.legend"
+        [title]="basicAreaChartOptions.title" [subtitle]="basicAreaChartOptions.subtitle"></apx-chart>
+    </div>
+  </div>
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="splineAreaChartOptions.series" [chart]="splineAreaChartOptions.chart"
+        [xaxis]="splineAreaChartOptions.xaxis" [stroke]="splineAreaChartOptions.stroke"
+        [tooltip]="splineAreaChartOptions.tooltip" [dataLabels]="splineAreaChartOptions.dataLabels"
+        [title]="splineAreaChartOptions.title"></apx-chart>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="stackedAreaChartOptions.series" [chart]="stackedAreaChartOptions.chart"
+        [xaxis]="stackedAreaChartOptions.xaxis" [dataLabels]="stackedAreaChartOptions.dataLabels"
+        [yaxis]="stackedAreaChartOptions.yaxis" [colors]="stackedAreaChartOptions.colors"
+        [legend]="stackedAreaChartOptions.legend" [fill]="stackedAreaChartOptions.fill"
+        [title]="stackedAreaChartOptions.title"></apx-chart>
+    </div>
+  </div>
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="nullvaluesAreaChartOptions.series" [chart]="nullvaluesAreaChartOptions.chart"
+        [xaxis]="nullvaluesAreaChartOptions.xaxis" [stroke]="nullvaluesAreaChartOptions.stroke"
+        [tooltip]="nullvaluesAreaChartOptions.tooltip" [dataLabels]="nullvaluesAreaChartOptions.dataLabels"
+        [fill]="nullvaluesAreaChartOptions.fill" [markers]="nullvaluesAreaChartOptions.markers"
+        [theme]="nullvaluesAreaChartOptions.theme" [yaxis]="nullvaluesAreaChartOptions.yaxis"
+        [title]="nullvaluesAreaChartOptions.title"></apx-chart>
+    </div>
+  </div>
+</div>

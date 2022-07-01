@@ -1,0 +1,41 @@
+<div class="row">
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="basicLineChartOptions.series" [chart]="basicLineChartOptions.chart"
+        [xaxis]="basicLineChartOptions.xaxis" [dataLabels]="basicLineChartOptions.dataLabels"
+        [grid]="basicLineChartOptions.grid" [stroke]="basicLineChartOptions.stroke"
+        [title]="basicLineChartOptions.title"></apx-chart>
+    </div>
+  </div>
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="lineWithDataLabelsChartOptions.series" [chart]="lineWithDataLabelsChartOptions.chart"
+        [xaxis]="lineWithDataLabelsChartOptions.xaxis" [stroke]="lineWithDataLabelsChartOptions.stroke"
+        [colors]="lineWithDataLabelsChartOptions.colors" [dataLabels]="lineWithDataLabelsChartOptions.dataLabels"
+        [legend]="lineWithDataLabelsChartOptions.legend" [markers]="lineWithDataLabelsChartOptions.markers"
+        [grid]="lineWithDataLabelsChartOptions.grid" [yaxis]="lineWithDataLabelsChartOptions.yaxis"
+        [title]="lineWithDataLabelsChartOptions.title"></apx-chart>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="lineWithAnnotationsChartOptions.series" [chart]="lineWithAnnotationsChartOptions.chart"
+        [xaxis]="lineWithAnnotationsChartOptions.xaxis" [dataLabels]="lineWithAnnotationsChartOptions.dataLabels"
+        [grid]="lineWithAnnotationsChartOptions.grid" [stroke]="lineWithAnnotationsChartOptions.stroke"
+        [title]="lineWithAnnotationsChartOptions.title" [labels]="lineWithAnnotationsChartOptions.labels"
+        [annotations]="lineWithAnnotationsChartOptions.annotations"></apx-chart>
+    </div>
+  </div>
+  <div class="col-6">
+    <div id="chart">
+      <apx-chart [series]="dashedLineChartOptions.series" [chart]="dashedLineChartOptions.chart"
+        [xaxis]="dashedLineChartOptions.xaxis" [stroke]="dashedLineChartOptions.stroke"
+        [tooltip]="dashedLineChartOptions.tooltip" [dataLabels]="dashedLineChartOptions.dataLabels"
+        [legend]="dashedLineChartOptions.legend" [markers]="dashedLineChartOptions.markers"
+        [grid]="dashedLineChartOptions.grid" [yaxis]="dashedLineChartOptions.yaxis"
+        [title]="dashedLineChartOptions.title"></apx-chart>
+    </div>
+  </div>
+</div>
